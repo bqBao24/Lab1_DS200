@@ -85,7 +85,7 @@ public class bai4 {
     
 
     public static class RatingReducer extends Reducer<Text, Text, Text, Text> {
-        private Text outputKey = new Text();
+        private Text outputKey = new Text();1
         private Text outputValue = new Text();
 
         public void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
